@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Home Page"
+        android:textColor="#ffffff"
+
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnTimer"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Timer"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Result"
+        android:textColor="#ffffff" />
+
+    <Button
+    android:id="@+id/btnAbout"
+    android:layout_width="300dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:background="@android:color/holo_orange_light"
+    android:text="How To Use"
+    android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/btnHow"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Push Up Tutorial"
+        android:textColor="#ffffff" />
+</LinearLayout>

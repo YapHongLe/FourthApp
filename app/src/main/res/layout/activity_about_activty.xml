@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".AboutActivty">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:gravity="center"
+        android:text="How To Use"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="391dp"
+            android:text="1) Click 'Timer' button to the timer page.\n\n2) Click 'Start' button to start timer and do push up.\n\n3) By 1 minute, click 'Pause' button to pause the time.\n\n4) Enter the Push Up number in the Edit Text.\n\n5) Click 'Add' button to insert the data to List View at Result Page.\n\n6) Check the data on Result Page. ( You can send the result to email or facebook )"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+        android:id="@+id/btnBack"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_orange_light"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
